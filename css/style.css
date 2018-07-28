@@ -1,0 +1,93 @@
+body{
+    font-family:"montserrat";
+    background-color:lightgray;
+    margin:0 auto;
+
+}
+/* Keeps cards and displayers aligned */
+.wrapper{
+ display:flex;
+ flex-direction:row;
+ justify-content:flex-start;
+ align-items: center;
+
+}
+/*styles the card that contains the UL as well as the sliding card */
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /*z-index: 1;*/
+    top:1em;
+    left:25em;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;  
+    -webkit-box-shadow: 10px 10px 104px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 104px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 104px 0px rgba(0,0,0,0.75);  
+background-size:cover;
+background-repeat:no-repeat;
+}
+.selector{
+    width:20%;
+    height:100%;
+    position:absolute;
+    left:1em;
+    
+}
+/*Styling for the text blurb that changes depending on the image.
+*/
+.description{
+    color:white;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:5em;
+    background-color:rgba(62, 94, 145,0.5);
+    z-index:5;
+    text-align:center;
+    -webkit-box-shadow: 10px 10px 104px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 104px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 104px 0px rgba(0,0,0,0.75);
+}
+
+/* Photo album should be 4 evenly spaced squares */
+/* Photo albums will inject their photos onto the list item */
+table {
+    width:80%;
+    margin:1em;
+}
+td {
+    width:30%;
+    position:relative;
+    margin:1em;
+}
+td:after{
+    content:'';
+    display:block;
+    margin-top:100%;
+   
+} 
+td .content {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border: 1px solid lightgray;
+}
+/* Styles the list items in the selector card */
+ul,li{
+    padding:1em;
+    margin:.5em;
+}
+
+
+
+

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<!--TO DO
+    1.) Have each list item show a new picture on clicking it (change the background of the div).
+    2.) Give each photo album a hover effect to make a better, more interactive UX
+    3.) Add a semi-transparent bar on the bottom of the photo display card that will
+    have some sort of "share" icon it
+-->
+<html>
+    <head>    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+			  crossorigin="anonymous"></script>
+		
+    <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">         
+             <div class="card selector">
+                           <div class="card-body">
+                            <div class="container">
+                                <small> Each list item displays a photo! Click one!</small>
+                                <ul class="list-group">
+                                            <li id= "photoOne" onclick="toggleNav()"class="list-group-item">Photo one</li>
+                                            <li id="photoTwo"onclick="toggleNav()"class="list-group-item">Photo two</li>
+                                            <li id="photoThree"onclick="toggleNav()"class="list-group-item">Photo three</li>
+                                            <li id="photoFour"onclick="toggleNav()"class="list-group-item">Photo Four</li>
+                                            <li id="photoFive"onclick="toggleNav()"class="list-group-item">Photo Five</li>
+                                            <li id="photoSix"onclick="toggleNav()"class="list-group-item">Photo six</li>
+                                    </ul>
+                  <table>
+                        <tr>
+                            <td>
+                                <div class="content"> Album</div>
+                            </td>
+                            <td>
+                                <div class="content"> Album </div>
+                            </td>
+                            <tr>
+                            <td>
+                                <div class="content">Album</div>
+                                <td>
+                                 <div class="content">Album</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                    
+                        <table>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+        <div id="card" class="card">
+                <div class="card-body">
+                    <div class="description">
+                    <h4 contenteditable=true> This content is editable if clicked! </h4>
+                </div>
+                </div>
+              </div>
+           </div>
+        </div>
+        <script src="/javascript/javascript.js"></script>
+    </body>
+</html>
