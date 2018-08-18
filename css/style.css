@@ -1,7 +1,8 @@
 body{
     font-family:"montserrat";
     background-color:lightgray;
-    margin:0 auto;
+    margin:10 auto;
+    padding:1em;
 
 }
 /* Keeps cards and displayers aligned */
@@ -80,14 +81,33 @@ td .content {
     bottom:0;
     left:0;
     right:0;
+    margin:.5em;
     border: 1px solid lightgray;
+    background-color:lightblue;
+    color:gray;
+   
+}
+td .content:hover {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:.5em;
+    border: 1px solid lightgray;
+    background-color:lightblue;
+    color:gray;
+    transform:scale(1.1);
+   
 }
 /* Styles the list items in the selector card */
 ul,li{
     padding:1em;
     margin:.5em;
+
 }
-
-
+ul,li:hover{
+    transform:scale(1.1);
+}
 
 
