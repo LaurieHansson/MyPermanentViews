@@ -1,0 +1,87 @@
+body {
+    margin:5em;
+    /* padding:0 auto */
+    background-color:lightgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family:"montserrat";
+  }
+  h3{
+      color:black;
+  }
+  .wrapper {
+    /* width: 100px; */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:repeat(4,20em);
+    grid-template-rows: 15em 15em 15em;
+    grid-auto-flow: column;
+  }
+  .box {
+    /* background-image:url('../images/flight.jpeg'); */
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #444;
+    color: #fff;
+    -webkit-box-shadow: 10px 10px 205px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 205px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 205px 0px rgba(0,0,0,0.75);
+}
+  
+  .base{ 
+    background-image:url('../images/flight.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+  
+  .a{
+      background-image:url('../images/scooter.jpeg');
+      background-size:cover;
+      background-repeat:no-repeat;
+  }
+  .b{
+    background-image:url('../images/cooldude.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.c{
+    background-image:url('../images/brazil.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.d{
+    background-image:url('../images/water.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.e{
+    background-image:url('../images/palms.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.f{
+    background-image:url('../images/confusedLady.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.g{
+    background-image:url('../images/yum.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.h{
+    background-image:url('../images/beach.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+  .i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:46em;
+    background-color:white;
+  }
+  
